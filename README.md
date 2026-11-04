@@ -15,8 +15,8 @@
 > **最近在折腾**
 >
 > - 给 homelab 换了一套 compose 编排，把之前散装的 systemd 服务都收编了，现在一条命令起停
-> - 在啃 eBPF，想写个能看 TCP 重传的小工具，卡在 ring buffer 那一步
-> - 把一个跑了三年的老站从 PHP 往 TypeScript 迁，大概 40%，剩下的是上传和支付回调
+> - 在啃 eBPF，想写个能看 TCP 重传的小工具，[卡在 ring buffer 那一步](https://github.com/336888/tech-notes/blob/main/ebpf-tcp-retrans.md)，暂时用 perf buffer 顶着
+> - 把一个跑了三年的老站从 PHP 往 TypeScript 迁，大概 40%，剩下的是上传和支付回调；顺带把[半夜那次 502](https://github.com/336888/tech-notes/blob/main/nginx-502-callback.md) 的病根找出来了
 > - 顺手把日志从 syslog 换到 vector，磁盘占用降了七成
 
 ## 仓库
