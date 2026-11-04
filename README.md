@@ -2,7 +2,7 @@
 
 # 躺平 · Tang Ping
 
-**全能工程师 / Full-Stack Engineer**
+**全栈工程师 / Full-Stack Engineer**
 
 [![Email](https://img.shields.io/badge/Email-336888%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:336888@gmail.com)
 [![Telegram](https://img.shields.io/badge/Telegram-%40Kycpr-26A5E4?style=flat-square&logo=telegram&logoColor=white)](https://t.me/Kycpr)
@@ -21,9 +21,9 @@
 
 **中文**
 
-全能工程师。前端、后端、系统运维、网络与硬件都做，习惯把复杂问题拆成能落地的小块。
+全栈工程师。日常做前端与后端，也管服务器和部署，喜欢把复杂问题拆成能落地的小块。
 
-- 擅长：高并发服务、性能调优、自建基础设施
+- 擅长：Web 全栈开发、性能调优、自建服务
 - 正在研究：分布式存储、eBPF、内核网络
 - 信条：先把东西跑起来，再让它变优雅
 
@@ -32,9 +32,9 @@
 
 **English**
 
-A full-stack engineer working across frontend, backend, ops, networking and hardware. I break complex problems into pieces that actually ship.
+A full-stack engineer working mostly on frontend and backend, with hands-on experience in servers and deployment. I break complex problems into pieces that actually ship.
 
-- Good at: high-concurrency services, performance tuning, self-hosted infrastructure
+- Good at: full-stack web development, performance tuning, self-hosted services
 - Exploring: distributed storage, eBPF, kernel networking
 - Creed: make it run first, then make it elegant
 
