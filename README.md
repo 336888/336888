@@ -1,89 +1,37 @@
-<div align="center">
+# 躺平
 
-# 躺平 · Tang Ping
+全栈开发，主要在 Web 这一侧。白天写业务代码，晚上折腾自己的服务器。
 
-**全栈工程师 / Full-Stack Engineer**
-
-[![Email](https://img.shields.io/badge/Email-336888%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:336888@gmail.com)
-[![Telegram](https://img.shields.io/badge/Telegram-%40Kycpr-26A5E4?style=flat-square&logo=telegram&logoColor=white)](https://t.me/Kycpr)
-[![GitHub](https://img.shields.io/badge/GitHub-336888-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/336888)
-[![Profile Views](https://komarev.com/ghpvc/?username=336888&style=flat-square&color=0e75b6)](https://github.com/336888)
-
-</div>
+邮箱 336888@gmail.com ｜ Telegram [@Kycpr](https://t.me/Kycpr)
 
 ---
 
-## 关于我 / About Me
+## 最近在折腾
 
-<table>
-<tr>
-<td width="50%" valign="top">
+- 给 homelab 换了一套 compose 编排，把之前散装的 systemd 服务都收编了，现在能一条命令起停
+- 在啃 eBPF，目标是先写个能看 TCP 重传的小工具，卡在 ring buffer 那块
+- 把一个跑了三年的老站从 PHP 往 TypeScript 迁，目前大概 40%，剩下的是上传和支付回调
+- 顺手把日志从 syslog 换到 vector，磁盘占用降了七成
 
-**中文**
+## 仓库
 
-全栈工程师。日常做前端与后端，也管服务器和部署，喜欢把复杂问题拆成能落地的小块。
-
-- 擅长：Web 全栈开发、性能调优、自建服务
-- 正在研究：分布式存储、eBPF、内核网络
-- 信条：先把东西跑起来，再让它变优雅
-
-</td>
-<td width="50%" valign="top">
-
-**English**
-
-A full-stack engineer working mostly on frontend and backend, with hands-on experience in servers and deployment. I break complex problems into pieces that actually ship.
-
-- Good at: full-stack web development, performance tuning, self-hosted services
-- Exploring: distributed storage, eBPF, kernel networking
-- Creed: make it run first, then make it elegant
-
-</td>
-</tr>
-</table>
-
----
-
-## 专业技能 / Skills
-
-| 领域 / Area | 技术栈 / Stack |
+| 仓库 | 是什么 |
 | --- | --- |
-| 前端 / Frontend | HTML · CSS · JavaScript · TypeScript · Vue · React |
-| 后端 / Backend | Node.js · Python · Go · PHP · Java |
-| 数据库 / Database | MySQL · PostgreSQL · Redis · MongoDB |
-| 运维 / DevOps | Linux · Docker · Nginx · CI/CD · Shell |
-| 网络 / Network | TCP/IP · DNS · TLS · 抓包分析 / packet analysis |
-| 其他 / Others | Git · 逆向工程 / Reverse Engineering · 自动化 / Automation |
+| [dev-toolbox](https://github.com/336888/dev-toolbox) | 日常脚本合集。批量改图、日志切分、清理临时文件这类，写完就没再管过，但一直在用 |
+| [homelab-infra](https://github.com/336888/homelab-infra) | 家里那台机器的配置。compose、nginx、备份脚本，基本都是从踩坑里长出来的 |
+| [web-starter](https://github.com/336888/web-starter) | 自己开新项目用的模板，没什么花活，就是省得每次重配一遍 ESLint 和 CI |
+| [tech-notes](https://github.com/336888/tech-notes) | 踩坑记录。写给自己看的，里面的命令都能直接复制跑 |
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=js,ts,python,go,php,java,nodejs,vue,react,linux,docker,nginx,mysql,redis,git,bash" />
-</p>
+## 平时用这些
 
----
+写得多：TypeScript、Node.js、Vue、Python、Go
 
-## 精选项目 / Featured Projects
+写过但不算精：PHP、Java
 
-| 项目 / Project | 说明 / Description | 技术 / Stack |
-| --- | --- | --- |
-| [dev-toolbox](https://github.com/336888/dev-toolbox) | 日常开发脚本与自动化工具集<br>Handy scripts and automation for daily development | Shell · Python |
-| [homelab-infra](https://github.com/336888/homelab-infra) | 自建服务器与家庭实验室的基础设施配置<br>Self-hosted infrastructure and homelab configs | Docker · Nginx · Linux |
-| [web-starter](https://github.com/336888/web-starter) | 开箱即用的 Web 项目脚手架<br>Opinionated web project starter | TypeScript · Node.js |
-| [tech-notes](https://github.com/336888/tech-notes) | 技术笔记：系统、网络、性能<br>Notes on systems, networking and performance | Markdown |
+天天打交道的：Linux、Docker、Nginx、MySQL、Redis
 
----
+## 几点说明
 
-## 联系方式 / Contact
-
-- 📧 Email: **336888@gmail.com**
-- ✈️ Telegram: [@Kycpr](https://t.me/Kycpr)
-- 🐙 GitHub: [@336888](https://github.com/336888)
-
----
-
-<div align="center">
-
-**「躺平不是放弃，是换一种节奏往前走。」**
-
-*"Lying flat is not giving up — it is walking at my own pace."*
-
-</div>
+- 上面这些仓库基本都是自己在用，文档不全很正常，有问题直接开 issue，我看到会回
+- 更新不快，但不会删
+- 私人项目，不接受赞助，也不接外包
