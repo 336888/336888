@@ -6,6 +6,7 @@
 
 [![Email](https://img.shields.io/badge/Email-336888%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:336888@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-336888-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/336888)
+[![Profile Views](https://komarev.com/ghpvc/?username=336888&style=flat-square&color=0e75b6)](https://github.com/336888)
 
 </div>
 
@@ -67,6 +68,23 @@ A full-stack engineer working across frontend, backend, ops, networking and hard
 | [homelab-infra](https://github.com/336888/homelab-infra) | 自建服务器与家庭实验室的基础设施配置<br>Self-hosted infrastructure and homelab configs | Docker · Nginx · Linux |
 | [web-starter](https://github.com/336888/web-starter) | 开箱即用的 Web 项目脚手架<br>Opinionated web project starter | TypeScript · Node.js |
 | [tech-notes](https://github.com/336888/tech-notes) | 技术笔记：系统、网络、性能<br>Notes on systems, networking and performance | Markdown |
+
+---
+
+## GitHub 数据 / Stats
+
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=336888&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=336888&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=336888&theme=tokyo-night&hide_border=true&area=true" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=336888&theme=tokyonight&no-frame=true&column=6&margin-w=8" />
+</p>
 
 ---
 
