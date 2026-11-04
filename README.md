@@ -5,6 +5,7 @@
 **全能工程师 / Full-Stack Engineer**
 
 [![Email](https://img.shields.io/badge/Email-336888%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:336888@gmail.com)
+[![Telegram](https://img.shields.io/badge/Telegram-%40Kycpr-26A5E4?style=flat-square&logo=telegram&logoColor=white)](https://t.me/Kycpr)
 [![GitHub](https://img.shields.io/badge/GitHub-336888-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/336888)
 [![Profile Views](https://komarev.com/ghpvc/?username=336888&style=flat-square&color=0e75b6)](https://github.com/336888)
 
@@ -71,26 +72,10 @@ A full-stack engineer working across frontend, backend, ops, networking and hard
 
 ---
 
-## GitHub 数据 / Stats
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=336888&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=336888&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=336888&theme=tokyo-night&hide_border=true&area=true" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=336888&theme=tokyonight&no-frame=true&column=6&margin-w=8" />
-</p>
-
----
-
 ## 联系方式 / Contact
 
 - 📧 Email: **336888@gmail.com**
+- ✈️ Telegram: [@Kycpr](https://t.me/Kycpr)
 - 🐙 GitHub: [@336888](https://github.com/336888)
 
 ---
