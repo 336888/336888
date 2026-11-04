@@ -1,7 +1,7 @@
 <h1 align="center">躺平</h1>
 
 <p align="center">
-  全栈开发 · 主要写 Web · 晚上折腾自己的服务器
+  全栈开发 · Web 方向 · 自建服务与性能调优
 </p>
 
 <p align="center">
@@ -11,33 +11,35 @@
 
 ---
 
-> [!TIP]
-> **最近在折腾**
->
-> - 给 homelab 换了一套 compose 编排，把之前散装的 systemd 服务都收编了，现在一条命令起停
-> - 在啃 eBPF，想写个能看 TCP 重传的小工具，[卡在 ring buffer 那一步](https://github.com/336888/tech-notes/blob/main/ebpf-tcp-retrans.md)，暂时用 perf buffer 顶着
-> - 把一个跑了三年的老站从 PHP 往 TypeScript 迁，大概 40%，剩下的是上传和支付回调；顺带把[半夜那次 502](https://github.com/336888/tech-notes/blob/main/nginx-502-callback.md) 的病根找出来了
-> - 顺手把日志从 syslog 换到 vector，磁盘占用降了七成
+## 在做什么
+
+| 项目 | 状态 | 说明 |
+| :--- | :--- | :--- |
+| 老站 PHP → TypeScript 迁移 | `40%` | 上传和支付回调还没迁完 |
+| eBPF TCP 重传观测 | `卡住` | [ring buffer 收不到事件](https://github.com/336888/tech-notes/blob/main/ebpf-tcp-retrans.md)，暂时 perf buffer 顶着 |
+| homelab 编排重构 | `已完成` | 散装 systemd 收编到 compose，一条命令起停 |
+| 日志 syslog → vector | `已完成` | 磁盘占用降了七成，空间终于够用 |
 
 ## 仓库
 
-| 仓库 | 是什么 | 语言 |
+| 仓库 | 说明 | 语言 |
 | :--- | :--- | :--- |
-| [dev-toolbox](https://github.com/336888/dev-toolbox) | 日常脚本合集。批量改图、日志切分、清临时文件，写完就没再管过，但一直在用 | Shell |
-| [homelab-infra](https://github.com/336888/homelab-infra) | 家里那台机器的配置，compose / nginx / 备份脚本，都是从踩坑里长出来的 | Docker |
-| [web-starter](https://github.com/336888/web-starter) | 自己开新项目用的模板，没什么花活，就是省得每次重配 ESLint 和 CI | TypeScript |
-| [tech-notes](https://github.com/336888/tech-notes) | 踩坑记录。写给自己看的，里面的命令都能直接复制跑 | Markdown |
+| [dev-toolbox](https://github.com/336888/dev-toolbox) | 日常脚本。日志切分、批量改图、清临时文件，写完就没再管过但一直在用 | Shell |
+| [homelab-infra](https://github.com/336888/homelab-infra) | 家里那台机器的配置，compose / nginx / 备份脚本 | Docker |
+| [web-starter](https://github.com/336888/web-starter) | 开新项目用的模板，省得每次重配 ESLint 和 CI | TypeScript |
+| [tech-notes](https://github.com/336888/tech-notes) | 踩坑记录，命令都能直接复制跑 | Markdown |
 
-## 平时用这些
+## 技术栈
 
-```text
-写得多    TypeScript · Node.js · Vue · Python · Go
-写过      PHP · Java
-天天用    Linux · Docker · Nginx · MySQL · Redis
-```
+| 层次 | 技术 |
+| :--- | :--- |
+| 前端 | TypeScript · Vue · React · HTML/CSS |
+| 后端 | Node.js · Python · Go · PHP |
+| 数据 | MySQL · Redis · PostgreSQL |
+| 运维 | Linux · Docker · Nginx · CI/CD |
 
 > [!NOTE]
-> 上面这些仓库基本都是自己在用，文档不全很正常，有问题直接开 issue，我看到会回。
+> 上面这些仓库基本都是自己在用，文档不全属正常，有问题直接开 issue。
 > 更新不快，但不会删。私人项目，不接外包。
 
 ---
